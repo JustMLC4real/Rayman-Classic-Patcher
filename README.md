@@ -16,6 +16,7 @@ The app imports a `.ipa`, patches the internal `Rayman` binary, updates `Info.pl
 - Rebuilds the modified app into a new `.ipa`
 - Simple SwiftUI interface for importing and exporting patched files
 - Supports iPhone and iPad
+- Can also be installed directly from the **JustMLC SideStore Source**
 
 ## What this patcher does
 
@@ -62,6 +63,30 @@ YourFile_Ultimate_Patched.ipa
 4. Tap **Start Patch**
 5. Wait for the patch process to finish
 6. Use **Share / Export IPA** to save or share the patched file
+
+## Install via SideStore
+
+You can also install **Rayman Classic Patcher** directly from the **JustMLC SideStore Source**.
+
+### Source repo
+- `https://github.com/JustMLC4real/JustMLC-Source`
+
+### Raw source URL
+- `https://raw.githubusercontent.com/JustMLC4real/JustMLC-Source/refs/heads/main/source.json`
+
+### Add it in SideStore
+
+1. Open **SideStore**
+2. Go to **Sources**
+3. Add this source URL:
+
+```text
+https://raw.githubusercontent.com/JustMLC4real/JustMLC-Source/refs/heads/main/source.json
+```
+
+4. Refresh sources
+5. Search for **Rayman Classic Patcher**
+6. Install it directly from the source
 
 ## Build requirements
 
